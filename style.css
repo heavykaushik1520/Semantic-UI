@@ -1,0 +1,75 @@
+/* style.css */
+
+/* Custom CSS for styling the login form */
+
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+}
+
+.ui.container {
+    margin-top: 50px; /* Add some space at the top */
+}
+
+h2 {
+    color: #333; /* Dark gray heading color */
+    text-align: center; /* Center align heading */
+    margin-bottom: 20px; /* Add space below heading */
+}
+
+.ui.form {
+    max-width: 400px; /* Limit form width */
+    margin: 0 auto; /* Center align form */
+    padding: 20px; /* Add some padding */
+    background-color: #fff; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.field {
+    margin-bottom: 20px; /* Add space between fields */
+}
+
+label {
+    font-weight: bold; /* Make labels bold */
+    color: #555; /* Dark gray label text */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Add padding */
+    border: 1px solid #ccc; /* Add a light border */
+    border-radius: 3px; /* Rounded corners */
+}
+
+.ui.checkbox {
+    margin-top: 10px; /* Add some space above checkbox */
+}
+
+.ui.checkbox label {
+    font-weight: normal; /* Reset font weight */
+    color: #555; /* Dark gray checkbox text */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align checkbox and label */
+}
+
+.ui.checkbox input[type="checkbox"] {
+    margin-right: 10px; /* Add space between checkbox and label */
+}
+
+button.ui.button {
+    background-color: #ff5722; /* Orange button color */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 3px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Add cursor pointer on hover */
+    display: block; /* Make button a block element */
+    margin: 0 auto; /* Center align button */
+    width: 50%; /* Set button width */
+}
+
+button.ui.button:hover {
+    background-color: #f4511e; /* Darker orange on hover */
+}
